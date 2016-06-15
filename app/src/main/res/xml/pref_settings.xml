@@ -1,0 +1,30 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- A 'parent' preference, which enables/disables child preferences (below)
+         when checked/unchecked. -->
+    <!--<SwitchPreference-->
+    <!--android:defaultValue="true"-->
+    <!--android:key="@string/pref_title_notify"-->
+    <!--android:title="@string/pref_title_notify"-->
+    <!--/>-->
+    <SwitchPreference
+        android:defaultValue="true"
+        android:key="@string/pref_title_switch"
+        android:title="@string/pref_title_switch"
+        />
+    <Preference
+        android:key="@string/pref_title_about"
+        android:summary="Winter的简书"
+        android:title="@string/pref_title_about"
+        />
+
+    <ListPreference
+        android:defaultValue="100"
+        android:entries="@array/pref_text_size_titles"
+        android:entryValues="@array/pref_text_size_titles_values"
+        android:key="@string/pref_title_text_size"
+        android:negativeButtonText="@null"
+        android:positiveButtonText="@null"
+        android:title="@string/pref_title_text_size"
+        />
+
+</PreferenceScreen>

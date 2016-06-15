@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:gravity="center"
+              android:orientation="vertical"
+              android:padding="16dp">
+
+    <TextView
+        android:id="@+id/poem_title_tv"
+        style="@style/Base.TextAppearance.AppCompat.Title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="再别康桥"/>
+
+    <TextView
+        android:id="@+id/poem_content_tv"
+        android:layout_width="wrap_content"
+        style="@style/TextAppearance.AppCompat.Body1"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:gravity="center"
+        android:text="轻轻的我走了
+正如我轻轻的来
+我轻轻的招手
+作别西天的云彩
+
+那河畔的金柳
+是夕阳中的新娘
+波光里的艳影
+在我的心头荡漾
+
+软泥上的青荇
+油油的在水底招摇
+在康河的柔波里
+我甘心做一条水草
+
+那榆荫下的一潭
+不是清泉是天上虹
+揉碎在浮藻间
+沉淀着彩虹似的梦"/>
+
+</LinearLayout>

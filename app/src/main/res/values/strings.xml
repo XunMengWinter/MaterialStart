@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">MaterialStart</string>
+    <string name="action_settings">设置</string>
+
+    <string name="activity_main">Material Design</string>
+    <string name="activity_common">诗一首</string>
+    <string name="activity_settings">设置</string>
+
+    <string name="pref_title_switch">Switch</string>
+    <string name="pref_title_about">关于</string>
+    <string name="pref_title_text_size">字体大小</string>
+
+    <string-array name="pref_text_size_titles">
+        <item>Small</item>
+        <item>Normal</item>
+        <item>Lager</item>
+        <item>Very Larger</item>
+    </string-array>
+    <string-array name="pref_text_size_titles_values">
+        <item>80</item>
+        <item>100</item>
+        <item>120</item>
+        <item>140</item>
+    </string-array>
+
+</resources>
